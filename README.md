@@ -15,8 +15,8 @@ java Server server_port block_duration timeout
 The client can accept the following two arguments:
 • server_IP: this is the IP address of the machine on which the server is running.
 • server_port: this is the port number being used by the server. This argument should be the same as the first argument of the server.
-Note that, you do not have to specify the port to be used by the client. You should allow the OS to pick a random available port. Each client should be initiated in a separate terminal as follows:
-
+Note that, you do not have to specify the port to be used by the client. You should allow the OS to pick a random available port. 
+Each client should be initiated in a separate terminal as follows:
 If you use Java:
 
 java Client server_IP server_port
